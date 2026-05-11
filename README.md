@@ -1,5 +1,7 @@
 # Fine-tune Once, Serve Anywhere
 
+Mario Alonso, Rodrigo Covas, Jorge Enebral, Pedro Meseguer
+
 This repository contains the notebooks and results for an NLP II final project
 that compares fine-tuning and inference workflows for a small open-source LLM.
 The project uses the same base model and dataset across several serving
