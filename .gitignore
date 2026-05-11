@@ -1,0 +1,75 @@
+# -----------------
+# Python / build
+# -----------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+.build/
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# -----------------
+# Environments (uv, venv, conda)
+# -----------------
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# -----------------
+# Jupyter / IPython
+# -----------------
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# -----------------
+# IDE / editor
+# -----------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*.kate-swp
+
+# -----------------
+# OS clutter
+# -----------------
+.DS_Store
+Thumbs.db
+
+# -----------------
+# Project data / artifacts
+# -----------------
+# Model checkpoints and large outputs
+checkpoints/
+unsloth_checkpoints/
+logs/
+runs/
+
+# Hugging Face / datasets (keep global cache out of repo)
+.cache/
+datasets/
+**/cache/
+
+# -----------------
+# Env / secrets
+# -----------------
+.env
+*.env
+.env.*
+*.secret
+*.key
+
+# -----------------
+# uv / lock (optional)
+# -----------------
+# If you regenerate uv.lock frequently and don't want it in Git, uncomment:
+uv.lock
